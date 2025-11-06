@@ -37,6 +37,11 @@ last_edit_time_format: '%d/%m/%Y %R'
 ### Page edition message
 gh_edit_link: true
 gh_edit_link_text: "Editar o conteúdo desta página..."
+## Callouts
+callouts:
+  warning:
+    title: Perigo
+    color: red
 
 exclude:
   - .sass-cache/
