@@ -9,11 +9,20 @@ description: |
 # Build settings
 theme: just-the-docs
 plugins:
-  - github-pages
   - jekyll-feed
   - jekyll-mentions
   - jekyll-seo-tag
   - jekyll-spaceship
+# Spaceship configurations
+jekyll-spaceship:
+  processors:
+    - table-processor
+    - mermaid-processor
+    - emoji-processor
+  mermaid-processor:
+    mode: default
+    syntax:
+      code: 'mermaid'
 
 exclude:
   - .sass-cache/
