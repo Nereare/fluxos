@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'jekyll', '~> 4.4'
+gem 'just-the-docs', '~> 0.10.1'
 group :jekyll_plugins do
-  gem 'github-pages', '~> 232'
   gem 'jekyll-feed', '~> 0.12'
   gem 'jekyll-mentions', '~> 1.6'
   gem 'jekyll-seo-tag', '~> 2.8'
