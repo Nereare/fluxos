@@ -27,6 +27,9 @@ aux_links:
     - 'https://pront.padoim.com'
   "Problemas":
     - 'https://github.com/Nereare/fluxos/issues'
+## Back to top button
+back_to_top: true
+back_to_top_text: "Começo"
 ## Footer
 ### last edited timestamp
 last_edit_timestamp: true
@@ -36,10 +39,27 @@ gh_edit_link: true
 gh_edit_link_text: "Editar o conteúdo desta página..."
 ## Callouts
 callouts:
-  warning:
+  danger:
     title: Perigo
     color: red
+  warning:
+    title: Importante
+    color: yellow
+  info:
+    title: Lembre-se
+    color: blue
+  note:
+    title: Observação
+    color: green
 
+# Defaults
+defaults:
+  - scope:
+      path: "" # I.e. all files
+    values:
+      layout: "default"
+
+# Exclusions
 exclude:
   - .sass-cache/
   - .jekyll-cache/
