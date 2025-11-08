@@ -21,6 +21,11 @@ jekyll-spaceship:
     syntax:
       code: 'mermaid'
 # Theme settings
+## Icon
+logo: /assets/iamspe.png
+favicon_ico: /assets/iamspe.ico
+## Navigation
+heading_anchors: true
 search_enabled: true
 aux_links:
   "Modelos Pront":
