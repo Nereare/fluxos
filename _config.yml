@@ -36,10 +36,6 @@ aux_links:
 ## Back to top button
 back_to_top: true
 back_to_top_text: "Começo"
-## Footer
-### Page edition message
-gh_edit_link: true
-gh_edit_link_text: "Editar o conteúdo desta página..."
 ## Callouts
 callouts:
   danger:
