@@ -14,6 +14,7 @@ plugins:
 jekyll-spaceship:
   processors:
     - table-processor
+    - mathjax-processor
     - mermaid-processor
     - emoji-processor
   mermaid-processor:
